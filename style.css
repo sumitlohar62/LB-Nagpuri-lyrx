@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: maroon;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #800000;
+  padding: 10px;
+}
+
+input[type="email"], input[type="search"], input[type="text"] {
+  padding: 8px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  background-color: #fff;
+  color: maroon;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.option-box {
+  background-color: #a52a2a;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.settings {
+  margin-top: 20px;
+  background-color: #a52a2a;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #eee;
+}
